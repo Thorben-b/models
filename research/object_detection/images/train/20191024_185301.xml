@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>20191024_185301.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\train\20191024_185301.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>361</xmin>
+			<ymin>251</ymin>
+			<xmax>452</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+</annotation>
