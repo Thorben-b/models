@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>19249984-7-1024x768.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\test\19249984-7-1024x768.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>122</xmin>
+			<ymin>309</ymin>
+			<xmax>344</xmax>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+</annotation>

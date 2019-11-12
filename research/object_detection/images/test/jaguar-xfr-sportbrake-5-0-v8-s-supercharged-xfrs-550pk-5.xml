@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>jaguar-xfr-sportbrake-5-0-v8-s-supercharged-xfrs-550pk-5.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\test\jaguar-xfr-sportbrake-5-0-v8-s-supercharged-xfrs-550pk-5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>345</ymin>
+			<xmax>278</xmax>
+			<ymax>387</ymax>
+		</bndbox>
+	</object>
+</annotation>

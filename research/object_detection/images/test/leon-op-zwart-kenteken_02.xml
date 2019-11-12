@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>leon-op-zwart-kenteken_02.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\test\leon-op-zwart-kenteken_02.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>389</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>239</ymin>
+			<xmax>368</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+</annotation>
