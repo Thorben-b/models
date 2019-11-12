@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>KP-00-01-kenteken2013.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\train\KP-00-01-kenteken2013.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>315</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>458</xmin>
+			<ymin>206</ymin>
+			<xmax>545</xmax>
+			<ymax>230</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>2010-12-27-BIN1-MleukjeNSBkenteken-5-FC.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\train\2010-12-27-BIN1-MleukjeNSBkenteken-5-FC.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>573</xmin>
+			<ymin>274</ymin>
+			<xmax>679</xmax>
+			<ymax>298</ymax>
+		</bndbox>
+	</object>
+</annotation>

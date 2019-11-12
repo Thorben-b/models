@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>kenteken3.jpg</filename>
+	<path>C:\Users\thorb\Downloads\labelImg-master\data\train\kenteken3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kenteken</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>444</ymin>
+			<xmax>145</xmax>
+			<ymax>511</ymax>
+		</bndbox>
+	</object>
+</annotation>
