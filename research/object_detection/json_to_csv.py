@@ -15,29 +15,30 @@ def json_to_csv(file_path):
         data_file=open(file_path+'/{}'.format(j))   
         data = json.load(data_file)
         width,height=data['imageWidth'],data['imageHeight']
+        name = data['imagePath']
         for item in data["shapes"]:
             box = item['points']
             if item['label']!='None':
-                name=item['label']
-                labels.append(name)
+                class_name=item['label']
                 xmin=box[0][0]
                 ymin=box[0][1]
-                xmax=box[1][0]
-                ymax=box[1][1]
-                value = (fjpg[n],
+                xmax=box[2][0]
+                ymax=box[2][1]
+                value = (name,
                          width,
                          height,
-                         name,
-                         round(xmin),
-                         round(ymin),
-                         round(xmax),
-                         round(ymax)
+                         class_name,
+                         round(xmin, 3),
+                         round(ymin, 3),
+                         round(xmax, 3),
+                         round(ymax, 3)
                          )
                 csv_list.append(value)
         n=n+1
+    
+    #print(csv_list)
     column_name = ['filename', 'width', 'height', 'class', 'xmin', 'ymin', 'xmax', 'ymax']
     csv_df = pd.DataFrame(csv_list, columns=column_name)
-    labels_train=list(set(labels))
     return csv_df
 
 def main():
